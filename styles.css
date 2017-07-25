@@ -1,0 +1,204 @@
+html {
+  box-sizing: border-box;
+}
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+/*_____________ HEADER _______________*/
+
+h1{
+  font-family: 'Indie Flower', cursive;
+  font-size:100px;
+}
+.dot{
+  color: #554468;
+}
+header{
+  height:500px;
+  width:100%;
+  margin-top: 30px;
+  border-top: solid 5px;
+  border-color: #554468;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:left;
+  background-image:url(http://www.wallpaperup.com/uploads/wallpapers/2014/03/29/313501/1a1837d95903ac5f6f4cf07d9d1693b7.jpg);
+  color: white;
+}
+.moveText{
+  margin-left:100px;
+}
+.description {
+  font-family: 'Lemonada', cursive;
+  font-size:12px;
+  color:white;
+  text-shadow: 2px 2px black;
+}
+.social-icons, .main-section {
+  display: flex;
+}
+.social-icon {
+  margin: 0 0.3em; /* This sets the margin to 0 for top and bottom, and 0.3em for left and right.*/
+  background-color:  white;
+  color: black;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/*_____________ MAIN BODY _______________*/
+.sections{
+    padding: 300px 0 300px 0;
+    background-color: #d3d3d3;
+}
+.buttons{
+  display:flex;
+  list-style:none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  width:25%;
+  text-align:center;
+}
+.button i{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-radius:50%;
+  color:white;
+  background-color: #554468;
+  width:90px;
+  height:90px;
+}
+.b{
+  font-size: 2rem;
+}
+
+/*_____________ NOTIFICATION _______________*/
+
+.notification{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(http://i.imgur.com/CbDWE5A.jpg);
+  height:500px;
+  padding: 500px 0 500px 0;
+}
+.notification p{
+  font-size: 20px;
+  color: white;
+  padding-bottom: 10px;
+}
+.notification h2{
+  font-size: 40px;
+  color: white;
+  padding-bottom: 10px;
+}
+.vid {
+  padding: 40%;
+}
+
+
+.signup{
+  width:30%;
+}
+form{
+  border:none;
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+}
+button{
+  background:blue;
+  color:white;
+  font-family: sans-serif;
+  border:none;
+  font-size: 2rem;
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:7%;
+  padding-right: 7%;
+  border-top-right-radius:10px ;
+  border-bottom-right-radius:10px;
+  margin-left: 0;
+}
+button:hover{
+  background-color: black;
+}
+
+/*_____________ CONTACT INFO _______________*/
+.quote{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Anton', cursive;
+  text-align:center;
+}
+.resize {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}
+.others{
+  list-style:none;
+  display:flex;
+  justify-content: center;
+}
+
+.social{
+  display:flex;
+  justify-content: center;
+  list-style:none;
+}
+
+.social i{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:50%;
+  color:white;
+  background-color: black;
+  width:50px;
+  height:50px;
+  margin:5px;
+}
+
+.social i:hover{
+  background-color: #554468;
+}
+
+/*_____________ FOOTER _______________*/
+
+footer{
+  background:#e5e5e5;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer ul{
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+}
+
+footer ul li:hover{
+  background-color: yellow;
+}
